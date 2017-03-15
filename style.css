@@ -1,0 +1,95 @@
+ header { 
+    position: static;
+    margin-top: 0px;
+    margin-left: 0px;
+    background-color: #2B2E38;
+    height: 120px;
+}
+
+.header__icon {
+    position: relative;
+    float: left;
+    height: 85px;
+    top: 17px;
+    left: 100px;   
+}
+
+.headermenu {
+    float: right;
+    margin-right: 100px;
+    margin-top: 30px;
+    
+}
+
+.button {
+    background-color: #D38D2E; 
+    border: none;
+    color: white;
+    padding: 11px 22px; /* taille du bouton */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 8px; /* arondie contours */
+    transition: all 0.5s; /* animation fleches */
+    cursor: pointer;
+    margin: 7px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+menu2 {
+    background-color: #2B2E38;
+    float: left;
+    height: 720px;
+    width: 247px;
+    margin-top: 17px;  
+}
+
+menu3 {
+    background-color: #2B2E38;
+    float: right;
+    height: 720px;
+    width: 247px;
+    margin-top: 17px;  
+}
+section{
+
+    border: 4px solid #2B2E38;
+    margin-left: 267px;
+    margin-top: 17px;
+    height: 714px;
+    width: auto;
+    margin-right: 267px;
+}
+
+/*.footer {
+    position: static;
+    margin-top: 0px;
+    margin-left: 0px;
+    background-color: #cccccc;
+    height: 45px;
+    
+}
